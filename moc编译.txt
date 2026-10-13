@@ -1,0 +1,5 @@
+cd /home/KC7000/server
+make distclean
+rm -rf moc* obj* *.o
+qmake
+make
